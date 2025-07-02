@@ -1,4 +1,7 @@
-@extends('welcome')
+@extends('layouts.app')
+@section('title')
+    Gallery
+@endsection
 @section('content')
     <main id="main" class="page_content flw">
         <div class="container">

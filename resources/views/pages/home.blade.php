@@ -1,4 +1,4 @@
-@extends('welcome')
+@extends('layouts.app')
 @section('content')
  <div
       data-elementor-type="wp-page"
@@ -53,11 +53,10 @@
                               </p>
 
                               <a
-                                href="our-services/index.html"
+                                href="{{ route('services') }}"
                                 class="btn btn-default"
-                                target="_blank"
                               >
-                                Our Service
+                                Our Services
                               </a>
                             </div>
                           </div>
@@ -83,9 +82,8 @@
                               </p>
 
                               <a
-                                href="blog/index.html"
+                                href="{{ route('blog.index') }}"
                                 class="btn btn-default"
-                                target="_blank"
                               >
                                 Our Blog
                               </a>
@@ -115,11 +113,10 @@
                               </p>
 
                               <a
-                                href="petz-about/index.html"
+                                href="{{ route('about') }}"
                                 class="btn btn-default"
-                                target="_blank"
                               >
-                                About US
+                                About Us
                               </a>
                             </div>
                           </div>
@@ -271,7 +268,7 @@
                           </p>
 
                           <a
-                            href="services/pet-hotel/index.html"
+                            href="{{ route('services.pet-hotel') }}"
                             class="elementor-button ht-btn btn"
                           >
                             Read more
@@ -297,7 +294,7 @@
                           </p>
 
                           <a
-                            href="services/exotic-pets/index.html"
+                            href="{{ route('services') }}"
                             class="elementor-button ht-btn btn"
                           >
                             Read more
@@ -323,7 +320,7 @@
                           </p>
 
                           <a
-                            href="services/dog-walking/index.html"
+                            href="{{ route('services') }}"
                             class="elementor-button ht-btn btn"
                           >
                             Read more
@@ -349,7 +346,7 @@
                           </p>
 
                           <a
-                            href="services/great-products/index.html"
+                            href="{{ route('services') }}"
                             class="elementor-button ht-btn btn"
                           >
                             Read more
@@ -375,7 +372,7 @@
                           </p>
 
                           <a
-                            href="vet-services/index.html"
+                            href="{{ route('services') }}"
                             class="elementor-button ht-btn btn"
                           >
                             Read more

@@ -16,10 +16,7 @@
                             'gallery',
                             'adoption',
                             'our-services',
-                            'services-pet-hotel',
-                            'our-team',
-                            'testi',
-                            'pricing-table'
+                            'services-pet-hotel'
                         ];
                         $isPagesActive = collect($pagesRoutes)->contains(function($route) {
                             return Request::is($route);
@@ -45,18 +42,6 @@
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2684 {{ Request::is('services-pet-hotel') ? 'current-menu-item' : '' }}">
                                 <a href="{{ url('/services-pet-hotel') }}">Service single</a>
                             </li>
-                            <li id="menu-item-2681"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2681 {{ Request::is('our-team') ? 'current-menu-item' : '' }}">
-                                <a href="{{ url('/our-team') }}">Our Team</a>
-                            </li>
-                            <li id="menu-item-2683"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2683 {{ Request::is('testi') ? 'current-menu-item' : '' }}">
-                                <a href="{{ url('/testi') }}">Testimonials</a>
-                            </li>
-                            <li id="menu-item-2682"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2682 {{ Request::is('pricing-table') ? 'current-menu-item' : '' }}">
-                                <a href="{{ url('/pricing-table') }}">Pricing table</a>
-                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -70,16 +55,16 @@
                 <ul id="menu-right-menu" class="primary-menu primary-right">
                     
                     <li id="menu-item-2162"
-                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2162 {{ Request::is('blog') ? 'current-menu-item' : '' }}">
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-2162 {{ Request::is('blog*') ? 'current-menu-item' : '' }}">
                         <a href="#">Blog</a>
                         <ul class="sub-menu">
-                            <li id="menu-item-1760"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1760 {{ Request::is('blog') ? 'current-menu-item' : '' }}">
-                                <a href="{{ url('/blog') }}">Blog standard</a>
+                            <li id="menu-item-2163"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2163 {{ Request::is('blog') && !Request::is('blog/*') ? 'current-menu-item' : '' }}">
+                                <a href="{{ url('/blog') }}">Blog</a>
                             </li>
-                            <li id="menu-item-2305"
-                                class="menu-item menu-item-type-post_type menu-item-object-post menu-item-2305 {{ Request::is('taking-care-of-a-puppy') ? 'current-menu-item' : '' }}">
-                                <a href="{{ url('/taking-care-of-a-puppy') }}">Blog single</a>
+                            <li id="menu-item-2686"
+                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2686 {{ Request::is('blog/1') ? 'current-menu-item' : '' }}">
+                                <a href="{{ url('/blog/1') }}">Blog Single</a>
                             </li>
                         </ul>
                     </li>

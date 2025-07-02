@@ -7,7 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="pingback" href="../xmlrpc.php">
-    <title>Petz – Pet Care &amp; Veterinary Theme</title>
+    <title>
+        @hasSection('title')
+            @yield('title') - Petz
+        @else
+            Petz – Pet Care &amp; Veterinary Theme
+        @endif
+    </title>
  
     <script src="../wp-includes/js/wp-emoji-release.min.js" type="text/javascript" defer=""></script>
     <style type="text/css">
