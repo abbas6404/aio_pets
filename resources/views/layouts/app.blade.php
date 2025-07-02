@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="profile" href="https://gmpg.org/xfn/11">
+    <!-- <link rel="profile" href="https://gmpg.org/xfn/11"> -->
     <link rel="pingback" href="../xmlrpc.php">
     <title>
         @hasSection('title')

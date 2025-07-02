@@ -14,9 +14,9 @@
                             <div class="hero-badge">
                                 <i class="fa fa-heart"></i>
                                 <span>Find Your Best Friend</span>
-                                                </div>
-                                            </div>
-                                        </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-6">
                         <div class="hero-content">
                             <h1 class="hero-title">Give a Pet a <span class="text-primary">Forever Home</span></h1>
@@ -29,17 +29,17 @@
                                     <li><i class="fa fa-check-circle"></i> Professional behavioral assessment included</li>
                                     <li><i class="fa fa-check-circle"></i> 30-day support and guidance program</li>
                                     <li><i class="fa fa-check-circle"></i> Lifetime veterinary care discounts</li>
-                                                    </ul>
-                                                </div>
+                                </ul>
+                            </div>
                             
                                                     <div class="hero-actions">
                             <a href="#pets-section" class="btn btn-primary">Browse Pets</a>
                             <a href="#" class="btn btn-outline">Contact Us</a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <!-- Pets Section -->
             <section id="pets-section" class="pets-section">
@@ -47,15 +47,15 @@
                     <div class="col-12 text-center mb-5">
                         <h2 class="section-title">Meet Your New Best Friend</h2>
                         <p class="section-subtitle">Each of our pets has a unique personality and story. Find the perfect companion for your family.</p>
-                                                    </div>
-                                                </div>
+                    </div>
+                </div>
 
                 <!-- Filter Buttons -->
                 <div class="filter-buttons text-center mb-5">
                     <button class="filter-btn active" data-filter="*">All Pets</button>
                     <button class="filter-btn" data-filter=".dog">Dogs</button>
                     <button class="filter-btn" data-filter=".cat">Cats</button>
-                                            </div>
+                </div>
 
                 <!-- Pets Grid -->
                 <div class="pets-grid">
@@ -68,26 +68,26 @@
                                     <button class="action-btn" data-pet="lucy"><i class="fa fa-heart"></i></button>
                                     <button class="action-btn" data-pet="lucy"><i class="fa fa-eye"></i></button>
                                 </div>
-                                                                        </div>
+                            </div>
                             <div class="pet-badge">Dog</div>
-                                                                    </div>
+                        </div>
                         <div class="pet-info">
                             <h4 class="pet-name">Lucy</h4>
                             <div class="pet-details">
                                 <span class="pet-age"><i class="fa fa-birthday-cake"></i> 2 years old</span>
                                 <span class="pet-gender"><i class="fa fa-venus"></i> Female</span>
-                                                                </div>
+                            </div>
                             <p class="pet-description">A friendly Golden Retriever who loves playing fetch and cuddling. Great with children and other pets. Lucy is looking for an active family who enjoys outdoor adventures.</p>
                             <div class="pet-traits">
                                 <span class="trait">Friendly</span>
                                 <span class="trait">Active</span>
                                 <span class="trait">Good with kids</span>
-                                                            </div>
+                            </div>
                             <button class="adopt-btn" data-pet="Lucy">
                                 <i class="fa fa-heart"></i> Adopt Lucy
                             </button>
-                                                                </div>
-                                                            </div>
+                        </div>
+                    </div>
 
                     <!-- Cat - Gupsy -->
                     <div class="pet-card cat">
@@ -97,27 +97,27 @@
                                 <div class="pet-actions">
                                     <button class="action-btn" data-pet="gupsy"><i class="fa fa-heart"></i></button>
                                     <button class="action-btn" data-pet="gupsy"><i class="fa fa-eye"></i></button>
-                                                                        </div>
-                                                                    </div>
+                                </div>
+                            </div>
                             <div class="pet-badge">Cat</div>
-                                                                </div>
+                        </div>
                         <div class="pet-info">
                             <h4 class="pet-name">Gupsy</h4>
                             <div class="pet-details">
                                 <span class="pet-age"><i class="fa fa-birthday-cake"></i> 1 year old</span>
                                 <span class="pet-gender"><i class="fa fa-mars"></i> Male</span>
-                                                            </div>
+                            </div>
                             <p class="pet-description">A playful tabby cat with beautiful markings. Gupsy loves interactive toys and sunny windowsills. He's perfect for a quiet household seeking a loving companion.</p>
                             <div class="pet-traits">
                                 <span class="trait">Playful</span>
                                 <span class="trait">Quiet</span>
                                 <span class="trait">Independent</span>
-                                                                        </div>
+                            </div>
                             <button class="adopt-btn" data-pet="Gupsy">
                                 <i class="fa fa-heart"></i> Adopt Gupsy
                             </button>
-                                                                </div>
-                                                            </div>
+                        </div>
+                    </div>
 
                     <!-- Cat - Mary -->
                     <div class="pet-card cat">
@@ -127,27 +127,27 @@
                                 <div class="pet-actions">
                                     <button class="action-btn" data-pet="mary"><i class="fa fa-heart"></i></button>
                                     <button class="action-btn" data-pet="mary"><i class="fa fa-eye"></i></button>
-                                                                        </div>
-                                                                    </div>
+                                </div>
+                            </div>
                             <div class="pet-badge">Cat</div>
-                                                                </div>
+                        </div>
                         <div class="pet-info">
                             <h4 class="pet-name">Mary</h4>
                             <div class="pet-details">
                                 <span class="pet-age"><i class="fa fa-birthday-cake"></i> 3 years old</span>
                                 <span class="pet-gender"><i class="fa fa-venus"></i> Female</span>
-                                                            </div>
+                            </div>
                             <p class="pet-description">A gentle and affectionate Persian cat who loves being pampered. Mary enjoys quiet evenings and gentle brushing. Perfect for seniors or calm households.</p>
                             <div class="pet-traits">
                                 <span class="trait">Gentle</span>
                                 <span class="trait">Calm</span>
                                 <span class="trait">Affectionate</span>
-                                                                        </div>
+                            </div>
                             <button class="adopt-btn" data-pet="Mary">
                                 <i class="fa fa-heart"></i> Adopt Mary
                             </button>
-                                                                </div>
-                                                            </div>
+                        </div>
+                    </div>
 
                     <!-- Dog - Lucky -->
                     <div class="pet-card dog">
@@ -157,27 +157,27 @@
                                 <div class="pet-actions">
                                     <button class="action-btn" data-pet="lucky"><i class="fa fa-heart"></i></button>
                                     <button class="action-btn" data-pet="lucky"><i class="fa fa-eye"></i></button>
-                                                                        </div>
-                                                                    </div>
+                                </div>
+                            </div>
                             <div class="pet-badge">Dog</div>
-                                                                </div>
+                        </div>
                         <div class="pet-info">
                             <h4 class="pet-name">Lucky</h4>
                             <div class="pet-details">
                                 <span class="pet-age"><i class="fa fa-birthday-cake"></i> 4 years old</span>
                                 <span class="pet-gender"><i class="fa fa-mars"></i> Male</span>
-                                                            </div>
+                            </div>
                             <p class="pet-description">A loyal German Shepherd mix who's great with families. Lucky is well-trained, protective, and loves long walks. He's looking for an experienced dog owner.</p>
                             <div class="pet-traits">
                                 <span class="trait">Loyal</span>
                                 <span class="trait">Protective</span>
                                 <span class="trait">Well-trained</span>
-                                                                        </div>
+                            </div>
                             <button class="adopt-btn" data-pet="Lucky">
                                 <i class="fa fa-heart"></i> Adopt Lucky
                             </button>
-                                                                    </div>
-                                                                </div>
+                        </div>
+                    </div>
 
                     <!-- Dog - Susu -->
                     <div class="pet-card dog">
@@ -187,27 +187,27 @@
                                 <div class="pet-actions">
                                     <button class="action-btn" data-pet="susu"><i class="fa fa-heart"></i></button>
                                     <button class="action-btn" data-pet="susu"><i class="fa fa-eye"></i></button>
-                                                            </div>
-                                                        </div>
+                                </div>
+                            </div>
                             <div class="pet-badge">Dog</div>
-                                                    </div>
+                        </div>
                         <div class="pet-info">
                             <h4 class="pet-name">Susu</h4>
                             <div class="pet-details">
                                 <span class="pet-age"><i class="fa fa-birthday-cake"></i> 6 months old</span>
                                 <span class="pet-gender"><i class="fa fa-venus"></i> Female</span>
-                                                </div>
+                            </div>
                             <p class="pet-description">An adorable Beagle puppy full of energy and curiosity. Susu loves to explore and play. She needs a patient family willing to help with training and socialization.</p>
                             <div class="pet-traits">
                                 <span class="trait">Energetic</span>
                                 <span class="trait">Curious</span>
                                 <span class="trait">Puppy</span>
-                                            </div>
+                            </div>
                             <button class="adopt-btn" data-pet="Susu">
                                 <i class="fa fa-heart"></i> Adopt Susu
                             </button>
-                                        </div>
-                                    </div>
+                        </div>
+                    </div>
 
                     <!-- Cat - Ava -->
                     <div class="pet-card cat">
@@ -218,21 +218,21 @@
                                     <button class="action-btn" data-pet="ava"><i class="fa fa-heart"></i></button>
                                     <button class="action-btn" data-pet="ava"><i class="fa fa-eye"></i></button>
                                 </div>
-                                                    </div>
+                            </div>
                             <div class="pet-badge">Cat</div>
-                                                </div>
+                        </div>
                         <div class="pet-info">
                             <h4 class="pet-name">Ava</h4>
                             <div class="pet-details">
                                 <span class="pet-age"><i class="fa fa-birthday-cake"></i> 2 years old</span>
                                 <span class="pet-gender"><i class="fa fa-venus"></i> Female</span>
-                                            </div>
+                            </div>
                             <p class="pet-description">A beautiful Siamese cat with striking blue eyes. Ava is vocal, intelligent, and loves attention. She would thrive in a home where she can be the center of attention.</p>
                             <div class="pet-traits">
                                 <span class="trait">Intelligent</span>
                                 <span class="trait">Vocal</span>
                                 <span class="trait">Attention-loving</span>
-                                        </div>
+                            </div>
                             <button class="adopt-btn" data-pet="Ava">
                                 <i class="fa fa-heart"></i> Adopt Ava
                             </button>
